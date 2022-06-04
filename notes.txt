@@ -1,3 +1,8 @@
 git -add file_name( to add files we want to commit)
 git -add . (to add all files)
 git -status (give status on which files have been added)
+git checkout -b branch_name (create and switch the the branch_name) 
+
+(changes made in a arbitrary branch will not be visible in the master branch)
+
+git merge branch_name (merge branch_name with the current branch)
